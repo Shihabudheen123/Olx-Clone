@@ -35,4 +35,54 @@
     justify-content: center;
     cursor: pointer;
   }
+
+
+
+
+
+
+
+
+
+  /* Login.css */
+
+.signup-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #131414; /* Bootstrap primary color or any color you prefer */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.signup-link:hover {
+  color: #0056b3; /* Darker color on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+.signup-link:active {
+  color: #003d7a; /* Even darker color when link is clicked */
+}
+
+
+/* Login.css */
+.signup-link {
+  text-decoration: none;
+  color: #1ab12200; /* Default color for Signup */
+}
+
+.signup-link .not-a-member {
+  color: #929497; /* Color for Not a Member */
+}
+
+.signup-link .signup {
+  color: #0d0d0e; /* Color for Signup */
+  font-weight: bold;
+  margin-left: 0.5rem;
   
+}
+
+.signup-link:hover .signup {
+  color: #1e40af; /* Darker color on hover */
+}
